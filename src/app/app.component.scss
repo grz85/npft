@@ -1,0 +1,29 @@
+.auth {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    min-height: 100vh;
+
+    
+    
+}
+.auth-info {
+    flex-shrink: 0;
+}
+.auth-img {
+    
+
+    .image {
+        border-radius: 20px;
+        overflow: hidden;
+
+    }
+    
+    .img {
+        max-width: 100%;
+        object-fit: cover;
+        
+        height: auto;
+    }
+}
+
